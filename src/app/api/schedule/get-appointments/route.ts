@@ -4,7 +4,6 @@
 
 import prisma from "@/lib/prisma";
 import { type NextRequest, NextResponse } from "next/server";
-import { array, number } from "zod";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = request.nextUrl;
