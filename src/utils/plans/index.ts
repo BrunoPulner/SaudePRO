@@ -23,9 +23,9 @@ export const subscriptionPlans = [
   {
     id: "BASIC",
     name: "Basic",
-    Description: "Perfeito para clinicas menores",
-    oldPrice: "R$ 97,90",
-    price: "R$ 27,90",
+    Description: "Perfeito para clinicas menores ou atendimentos particulares.",
+    oldPrice: "R$ 60,00",
+    price: "R$ 50,00",
     features: [
       `Até ${PLANS["BASIC"].maxServices} serviços`,
       "agendamentos ilimitados",
@@ -35,10 +35,10 @@ export const subscriptionPlans = [
   },
   {
     id: "PROFESSIONAL",
-    name: "Profissional",
+    name: "Professional",
     Description: "Ideal para clinicas grandes",
-    oldPrice: "R$ 197,90",
-    price: "R$ 97,90",
+    oldPrice: "R$ 100,00",
+    price: "R$ 70,00",
     features: [
       `Até ${PLANS["PROFESSIONAL"].maxServices} serviços`,
       "agendamentos ilimitados",
